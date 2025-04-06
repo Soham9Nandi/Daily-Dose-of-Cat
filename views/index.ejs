@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="icon" type="image/gif" href="../public/images/kitty.png" />
+		<title>Daily Dose of Cats</title>
+		<link rel="stylesheet" href="main.css" />
+	</head>
+	<body>
+		<div class="main">
+			<p>Your Daily Dose of Cat 🐱</p>
+			<div class="catImage">
+				<img src="<%= catImageURL %>" />
+			</div>
+			<form method="post">
+				<button formaction="/submit">More Cats!</button>
+			</form>
+		</div>
+	</body>
+</html>
